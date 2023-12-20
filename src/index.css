@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+    @apply underline
+}
+label{
+    @apply text-gray-400 font-medium 
+}
+
+input {
+    @apply border-[1px] border-gray-200 rounded-lg px-2 py-1 bg-white focus:ring-gray-200 outline-none
+}
+.submit-btn{
+    @apply btn btn-block  text-white font-semibold bg-[#8ACBCE] border-none hover:bg-gray-300
+}
+.enroll-btn{
+    @apply px-5 py-1 rounded-full  text-white font-semibold bg-gray-900 border-none hover:bg-teal-300
+}
+
+.title{
+    @apply text-3xl text-gray-700 text-center font-bold
+}
+
